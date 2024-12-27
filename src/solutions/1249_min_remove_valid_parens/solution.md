@@ -53,12 +53,12 @@ Parentheses problems often make me think of using a **stack**. Here's the though
 ---
 
 ### **Time Complexity**
-- **First Pass**: O(n), where \( n \) is the length of the string.
+- **First Pass**: O(n), where n is the length of the string.
 - **Second Pass**: O(n) to construct the valid string.
 - **Overall**: O(n).
 
 ### **Space Complexity**
-- The `stack` and `remove` list/store take O(n) space in the worst case.
+- The `stack` and `remove` list both take O(n) space in the worst case.
 - **Overall**: O(n).
 
 ---
