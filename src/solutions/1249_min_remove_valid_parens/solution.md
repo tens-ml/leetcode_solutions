@@ -26,7 +26,7 @@ Parentheses problems often make me think of using a **stack**. Here's the though
      - Remove all invalid indices (both from the stack and the `remove` list) from the string.
 
 4. **Efficiency**:
-   - Using a **set** to store indices of characters to remove ensures that the final pass to construct the valid string is \( O(n) \).
+   - Using a **set** to store indices of characters to remove ensures that the final pass to construct the valid string is O(n).
 
 ---
 
@@ -53,12 +53,12 @@ Parentheses problems often make me think of using a **stack**. Here's the though
 ---
 
 ### **Time Complexity**
-- **First Pass**: \( O(n) \), where \( n \) is the length of the string.
-- **Second Pass**: \( O(n) \) to construct the valid string.
-- **Overall**: \( O(n) \).
+- **First Pass**: O(n), where \( n \) is the length of the string.
+- **Second Pass**: O(n) to construct the valid string.
+- **Overall**: O(n).
 
 ### **Space Complexity**
-- The `stack` and `remove` list/store take \( O(n) \) space in the worst case.
-- **Overall**: \( O(n) \).
+- The `stack` and `remove` list/store take O(n) space in the worst case.
+- **Overall**: O(n).
 
 ---
